@@ -1,0 +1,24 @@
+# permanent file to ignore
+.catkin_tools/profiles/default/devel_collisions.txt
+.catkin_tools/
+.catkin_workspace
+.vscode
+# ros build files 
+build
+devel
+logs
+
+# temporary files
+rosgraph.png
+rosgraph_ref.png
+install/
+log/
+
+# course build artifacts
+**/ignore/
+course/**/exercises/build/
+course/**/answers/ex[0-9][0-9]_answer
+course/**/answers/ex[0-9][0-9]_hard
+course/**/answers/ex[0-9][0-9]_answer.exe
+course/**/answers/*/build/
+course/**/answers/build_hard/
